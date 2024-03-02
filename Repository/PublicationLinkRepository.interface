@@ -1,0 +1,9 @@
+package iit.unimiskolc.FRI.repository;
+
+import iit.unimiskolc.FRI.model.PublicationLink;
+import org.springframework.data.repository.CrudRepository;
+
+
+public interface PublicationLinkRepository extends CrudRepository<PublicationLink, Integer> {
+
+}
